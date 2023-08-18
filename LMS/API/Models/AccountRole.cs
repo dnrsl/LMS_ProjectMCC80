@@ -12,6 +12,6 @@ namespace API.Models
 
         //Cardinality
         public Account? Account { get; set; }
-        public Role? Role { get; set; }
+        public Task? Role { get; set; }
     }
 }

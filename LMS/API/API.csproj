@@ -20,14 +20,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Contracts\" />
     <Folder Include="DTOs\AccountRoles\" />
     <Folder Include="DTOs\Accounts\" />
     <Folder Include="DTOs\Classrooms\" />
     <Folder Include="DTOs\Grades\" />
     <Folder Include="DTOs\Lessons\" />
-    <Folder Include="DTOs\UserClassrooms\" />
-    <Folder Include="DTOs\Users\" />
-    <Folder Include="DTOs\Tasks\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Services\" />
+    <Folder Include="Utilities\Handlers\" />
+    <Folder Include="Utilities\Validations\" />
   </ItemGroup>
 
 </Project>

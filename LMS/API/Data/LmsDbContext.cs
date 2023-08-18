@@ -15,7 +15,7 @@ namespace API.Data
         public DbSet<Classroom> Classrooms { get; set; }
         public DbSet<Grade> Grades { get; set; }
         public DbSet<Lesson> Lessons { get; set; }
-        public DbSet<Role> Roles { get; set; }
+        public DbSet<Task> Roles { get; set; }
         public DbSet<Models.Task> Tasks { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<UserClassroom> UserClassrooms { get; set; }
@@ -24,7 +24,7 @@ namespace API.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Role>().HasData(
+            modelBuilder.Entity<Task>().HasData(
                new NewDefaultRoleDto
                {
                    Guid = Guid.Parse("5eeda544-ee8f-495d-9366-6c04e0904a5c"),
@@ -72,7 +72,7 @@ namespace API.Data
 
             //ROLE
             //One Role to many Account Role (1:N)
-            modelBuilder.Entity<Role>()
+            modelBuilder.Entity<Task>()
                         .HasMany(r => r.AccountRoles)
                         .WithOne(accRole => accRole.Role)
                         .HasForeignKey(accRole => accRole.RoleGuid);

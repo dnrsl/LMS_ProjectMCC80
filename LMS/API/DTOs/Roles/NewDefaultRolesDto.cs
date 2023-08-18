@@ -7,9 +7,9 @@ namespace API.DTOs.Roles
         public Guid Guid { get; set; }
         public string Name { get; set; }
 
-        public static implicit operator Role(NewDefaultRoleDto newDefaultRoleDto)
+        public static implicit operator Task(NewDefaultRoleDto newDefaultRoleDto)
         {
-            return new Role
+            return new Task
             {
                 Guid = newDefaultRoleDto.Guid,
                 Name = newDefaultRoleDto.Name,
