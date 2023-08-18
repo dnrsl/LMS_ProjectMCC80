@@ -230,22 +230,22 @@ namespace API.Migrations
                         new
                         {
                             Guid = new Guid("5eeda544-ee8f-495d-9366-6c04e0904a5c"),
-                            CreatedDate = new DateTime(2023, 8, 18, 13, 59, 5, 126, DateTimeKind.Local).AddTicks(1674),
-                            ModifiedDate = new DateTime(2023, 8, 18, 13, 59, 5, 126, DateTimeKind.Local).AddTicks(1684),
+                            CreatedDate = new DateTime(2023, 8, 18, 14, 17, 40, 901, DateTimeKind.Local).AddTicks(947),
+                            ModifiedDate = new DateTime(2023, 8, 18, 14, 17, 40, 901, DateTimeKind.Local).AddTicks(960),
                             Name = "Teacher"
                         },
                         new
                         {
                             Guid = new Guid("4016bbf3-5514-4478-97f8-85a3baef09c2"),
-                            CreatedDate = new DateTime(2023, 8, 18, 13, 59, 5, 126, DateTimeKind.Local).AddTicks(1687),
-                            ModifiedDate = new DateTime(2023, 8, 18, 13, 59, 5, 126, DateTimeKind.Local).AddTicks(1688),
+                            CreatedDate = new DateTime(2023, 8, 18, 14, 17, 40, 901, DateTimeKind.Local).AddTicks(968),
+                            ModifiedDate = new DateTime(2023, 8, 18, 14, 17, 40, 901, DateTimeKind.Local).AddTicks(969),
                             Name = "Student"
                         },
                         new
                         {
                             Guid = new Guid("24706f51-2651-4cd2-9ca0-c8e510969b7d"),
-                            CreatedDate = new DateTime(2023, 8, 18, 13, 59, 5, 126, DateTimeKind.Local).AddTicks(1690),
-                            ModifiedDate = new DateTime(2023, 8, 18, 13, 59, 5, 126, DateTimeKind.Local).AddTicks(1690),
+                            CreatedDate = new DateTime(2023, 8, 18, 14, 17, 40, 901, DateTimeKind.Local).AddTicks(971),
+                            ModifiedDate = new DateTime(2023, 8, 18, 14, 17, 40, 901, DateTimeKind.Local).AddTicks(972),
                             Name = "Admin"
                         });
                 });
