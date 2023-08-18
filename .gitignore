@@ -399,4 +399,11 @@ FodyWeavers.xsd
 
 
 
-LMS/API/Migrations
+LMS/API/Migrations/
+LMS/API/Migrations/20230818064919_CreateTable.Designer.cs
+LMS/API/Migrations/20230818065425_ChangeTableColumnName.cs
+LMS/API/Migrations/20230818065425_ChangeTableColumnName.Designer.cs
+LMS/API/Migrations/20230818065905_AddDefaultRole.cs
+LMS/API/Migrations/20230818065905_AddDefaultRole.Designer.cs
+LMS/API/Migrations/LmsDbContextModelSnapshot.cs
+LMS/API/WeatherForecast.cs
